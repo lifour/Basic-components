@@ -16,6 +16,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://lifour.github.io/Basic-components",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -26,7 +27,8 @@
     "ling-staged": "ling-staged",
     "prepare": "husky install",
     "eslint": "eslint src --fix",
-    "prettier": "prettier src --write"
+    "prettier": "prettier src --write",
+    "deploy": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +69,7 @@
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-unused-imports": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "node-sass": "^7.0.3",
